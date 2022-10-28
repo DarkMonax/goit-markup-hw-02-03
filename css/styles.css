@@ -14,6 +14,8 @@ a {
   text-decoration: none;
 }
 body {
+  font-family: Roboto, sans-serif;
+
   color: var(--primary-text-color);
   background-color: var(--primary-bg-color);
 }
@@ -24,7 +26,6 @@ body {
 
 .logo {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -34,7 +35,6 @@ body {
 
 .studio {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -47,7 +47,6 @@ body {
 }
 .footer-studio {
   font-family: "Raleway";
-  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -63,21 +62,21 @@ body {
 }
 
 .hero-h1 {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 
   color: var(--primary-bg-color);
 }
 
 .hero-btn {
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: Roboto, sans-serif;
   font-weight: 700;
   font-size: 16px;
-  line-height: 1.875;
+  line-height: 1.88;
 
   background-color: var(--primary-button-color);
   color: var(--primary-bg-color);
@@ -89,21 +88,20 @@ body {
 }
 
 .feature-h3 {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
 
   color: var(--primary-text-color);
 }
 
 .feature-text {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
+  letter-spacing: 0.03em;
 
   color: var(--second-text-color);
 }
@@ -111,11 +109,11 @@ body {
 /* -----------WORK----------- */
 
 .work-h2 {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 
   color: var(--primary-text-color);
 }
@@ -123,18 +121,16 @@ body {
 /* ------------OUR TEAM----------- */
 
 .our-team-h2 {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
 
   color: var(--primary-text-color);
 }
 
 .our-team-h3 {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -143,8 +139,6 @@ body {
 }
 
 .our-team-text {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
@@ -152,8 +146,7 @@ body {
   color: var(--second-text-color);
 }
 .link {
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -167,8 +160,8 @@ body {
 }
 
 .mailto-header {
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: Roboto, sans-serif;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -177,8 +170,8 @@ body {
 }
 
 .tel-header {
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: Roboto, sans-serif;
+
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -197,8 +190,8 @@ body {
 }
 
 .mailto-footer {
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: Roboto, sans-serif;
+
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -206,11 +199,11 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 .tel-footer {
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: Roboto, sans-serif;
+
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71px;
+  line-height: 1.71;
 
   color: rgba(255, 255, 255, 0.6);
 }
@@ -225,20 +218,17 @@ body {
   color: var(--accent-text-color);
 }
 .footer-text {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.71px;
+  line-height: 1.71;
 
   color: var(--primary-bg-color);
 }
 .button {
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: Roboto, sans-serif;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.63;
 
   color: var(--primary-text-color);
 }
@@ -250,8 +240,6 @@ body {
 }
 
 .text-primary {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -260,11 +248,9 @@ body {
 }
 
 .text-secondary {
-  font-family: "Roboto";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1.875;
+  line-height: 1.88;
 
   color: var(--second-text-color);
 }
