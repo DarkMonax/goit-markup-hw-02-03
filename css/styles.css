@@ -80,6 +80,8 @@ body {
 
   background-color: var(--primary-button-color);
   color: var(--primary-bg-color);
+
+  cursor: pointer;
 }
 
 /* ----------FEATURE------------- */
@@ -232,6 +234,7 @@ body {
   line-height: 1.63;
 
   color: var(--primary-text-color);
+  cursor: pointer;
 }
 
 .button:hover,
