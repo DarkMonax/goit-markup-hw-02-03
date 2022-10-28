@@ -14,7 +14,7 @@ a {
   text-decoration: none;
 }
 body {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
 
   color: var(--primary-text-color);
   background-color: var(--primary-bg-color);
@@ -73,7 +73,7 @@ body {
 }
 
 .hero-btn {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -134,6 +134,7 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 
   color: var(--primary-text-color);
 }
@@ -142,11 +143,12 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.19;
+  letter-spacing: 0.03em;
 
   color: var(--second-text-color);
 }
 .link {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -160,8 +162,7 @@ body {
 }
 
 .mailto-header {
-  font-family: Roboto, sans-serif;
-
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -170,7 +171,7 @@ body {
 }
 
 .tel-header {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
 
   font-weight: 500;
   font-size: 14px;
@@ -190,7 +191,7 @@ body {
 }
 
 .mailto-footer {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
 
   font-weight: 400;
   font-size: 14px;
@@ -199,7 +200,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 .tel-footer {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
 
   font-weight: 400;
   font-size: 14px;
@@ -225,7 +226,7 @@ body {
   color: var(--primary-bg-color);
 }
 .button {
-  font-family: Roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.63;
